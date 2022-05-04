@@ -522,7 +522,7 @@ input[type="checkbox"] {
 
 .shape {
   position: absolute;
-  bottom: 0;
+  bottom: -1px;
   left: 0;
   width: 100%;
   z-index: 1;
@@ -539,7 +539,7 @@ input[type="checkbox"] {
 .slideShow .button-slide {
   position: absolute;
   right: 25px;
-  bottom: 50px;
+  bottom: 20%;
   font-size: 0;
   background: var(--bg-color);
   border: 0;
@@ -1402,10 +1402,12 @@ form.subscribe {
     line-height: 38px;
   }
   .mobile-position {
-    right: 25%;
+    right: 9%;
+    top: 29%;
   }
   .header-search {
-    right: 28%;
+    right: 10%;
+    top: 25%;
   }
 }
 @media (max-width: 400px) {
