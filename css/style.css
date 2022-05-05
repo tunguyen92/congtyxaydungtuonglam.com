@@ -196,7 +196,6 @@ p {
   line-height: 27px;
   color: var(--font-color);
   opacity: 0.8;
-  font-family: "Jost", sans-serif;
 }
 
 header.main-header {
@@ -1079,7 +1078,7 @@ ul.blog-meta li {
   opacity: 0.6;
 }
 .blog-meta li a {
-  font-size: 16px;
+  font-size: 14px;
   color: var(--heading-color);
   font-weight: 600;
   line-height: 26px;
@@ -1089,7 +1088,7 @@ ul.blog-meta li {
   color: var(--primary-color);
 }
 .date p {
-  font-size: 15px;
+  font-size: 12px;
 }
 
 .project {
@@ -1202,8 +1201,8 @@ form.subscribe {
   opacity: 0.9;
 }
 .footer p {
-  font-size: 18px;
-  line-height: 28px;
+  font-size: 15px;
+  line-height: 26px;
   color: #97a1a9;
 }
 .footer .footer-list-29 ul li,
@@ -1421,5 +1420,9 @@ form.subscribe {
   .title-big {
     font-size: 25px;
     line-height: 30px;
+  }
+  .sub-menu.dropdown-menu.show {
+    position: absolute;
+    left: 42%;
   }
 }
